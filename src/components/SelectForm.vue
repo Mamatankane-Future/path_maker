@@ -153,7 +153,7 @@ function stopDrag() {
             stroke="black"
             opacity="0.5"
             :fill="index == active ? 'white' : 'black'"
-            r="5"
+            r="i"
             class="pointable"
             @click="handlePathClick(index)"
             @mousedown="handleDrag(index, i, $event)"
